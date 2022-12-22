@@ -1,10 +1,13 @@
 @extends('layouts.main')
 
+@section('title', 'Manuais de Treinamento')
 
 
-@section('title', 'Pesquisas')
+
 
 @section('content')
+
+
 
 
 

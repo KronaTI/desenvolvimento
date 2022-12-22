@@ -3,26 +3,29 @@
     margin: 0;
     font-family: 'Roboto';
 }
-.container
-{
-    width: 100%;
-    height: 70vh;
-    background-image: url('/images/fundos-telas/fundo-dois.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .rodape-aplicacao
 {
     width: 95%;
-    height: 10vh;
+    height: 80px;
     background-color: #423f3f;
     color: #c1c1c1;
     font-weight: bolder;
     text-align: center;
     margin: 5px auto;
     border-radius: 10px;
+    bottom: 0;
+        position: both;
+        width: 100%;
+        text-align: center;
 }
 .texto-rodape
 {
     padding: 30px;
+}
+.form-select
+{
+    width: 150px;
+    margin-left: 20px;
+    font-size: 11px;
+    font-style: italic;
 }

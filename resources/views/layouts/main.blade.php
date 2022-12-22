@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>@yeld('title')</title>
+        <title>@yield('title')</title>
 
         <!-- CSS da Aplicação -->
         <link rel="stylesheet" href="/css/estilo.css">
@@ -18,8 +18,6 @@
         <script href="/js/scripts.js"></script>
     </head>
     <body class="corpo-geral">
-        @yield('content')
-
         <header class="cabecalho-aplicacao">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#"><img src="/images/icon/principal.png">&nbsp;AGM Solutions</a>
@@ -29,36 +27,37 @@
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/manual">Manuais<span class="sr-only">(current)</span></a>
+                      </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Avaliações</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        Relatórios
+                        + Ferramentas
                       </a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Lista de TMS</a>
-                        <a class="dropdown-item" href="#">Ramais</a>
+                        <a class="dropdown-item" href="/tms">Lista de TMS</a>
+                        <a class="dropdown-item" href="/ramais">Ramais</a>
                         <a class="dropdown-item" href="#">Resultados Consolidados</a>
+                        <a class="dropdown-item" href="#">Mural de Recados</a>
                       </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Acessar ADM</a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="text" name="login" placeholder="Insira seu login" aria-label="Login">
+                    <input class="form-control mr-sm-2" type="password" name="password" maxlength="6" placeholder="Digite sua senha" aria-label="Password">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Acessar ADM</button>
                   </form>
                 </div>
               </nav>
         </header>
-        <div class="container">
+        @yield('content')
         
-        </div>
         <footer class="rodape-aplicacao">
             <p class="texto-rodape"> Krona Ferramentas &copy; 2022</p>
         </footer>

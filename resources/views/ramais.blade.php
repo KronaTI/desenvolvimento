@@ -1,12 +1,13 @@
 @extends('layouts.main')
 
-@section('title', 'AGM Solutions')
+@section('title', 'Ramais Krona')
 
 
 
 @section('content')
 
-    
+
+
 
 
 @endsection
