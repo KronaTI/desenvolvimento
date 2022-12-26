@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class ManualController extends Controller
 {
     public function Manual(){
-        return view('/manual');
+       return view('/manual');
+       
     }
 }

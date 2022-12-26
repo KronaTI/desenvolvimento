@@ -34,7 +34,7 @@
                         <a class="nav-link" href="/manual">Manuais<span class="sr-only">(current)</span></a>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="/treinador">Avaliações</a>
+                      <a class="nav-link" href="/provas">Avaliações</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">

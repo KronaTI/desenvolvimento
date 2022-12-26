@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class TreinadorController extends Controller
 {
     public function Treinador(){
-        return view('/treinador');
+        return view('/provas/treinador');
     }
 }
