@@ -29,3 +29,8 @@
     font-size: 11px;
     font-style: italic;
 }
+.linha
+{
+    height: 3px;
+    color: black;
+}
