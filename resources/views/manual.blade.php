@@ -7,7 +7,13 @@
 
 @section('content')
 
-
+    <div class="container-esquerda">
+    
+    </div>
+    
+    <div class="container-direita">
+    
+    </div>
 
 
 

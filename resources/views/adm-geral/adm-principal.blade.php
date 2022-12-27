@@ -6,7 +6,12 @@
 
 @section('content')
 
+    <div id="painel-esquerda">
     
+    </div>
+    <div id="painel-direita">
+    
+    </div>
 
 
 @endsection
