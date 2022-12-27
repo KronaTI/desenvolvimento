@@ -9,6 +9,7 @@ use App\Http\Controllers\ProvaController;
 use App\Http\Controllers\TreinadorController;
 use App\Http\Controllers\ProvaK1Controller;
 use App\Http\Controllers\UsuariosController;
+use App\Http\Controllers\PesquisaController;
 
 
 
@@ -20,4 +21,4 @@ Route::get('/provas', [ProvaController::class, 'prova']);
 Route::get('/provas/treinador', [TreinadorController::class, 'treinador']);
 Route::get('/provas/prova-k1', [ProvaK1Controller::class, 'provak1']);
 Route::get('/adm-geral/usuarios', [UsuariosController::class, 'usuario']);
-   
+Route::get('/provas/pesquisa', [PesquisaController::class, 'pesquisa']);   

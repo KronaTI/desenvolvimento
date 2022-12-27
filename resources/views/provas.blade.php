@@ -14,7 +14,7 @@
     <ul class="list-group list-group-flush">
       <li class="list-group-item"><a class="link-card" href="/provas/treinador">Avalição do Treinador para iniciantes</a></li>
       <li class="list-group-item"><a class="link-card"href="/provas/prova-k1">Avaliação Krona - Teste de Conhecimentos</a><br></li>
-      <li class="list-group-item">A third item</li>
+      <li class="list-group-item"><a class="link-card"href="/provas/pesquisa">Pesquisa de Satisfação - Departamento de T.I.</a><br></li>
     </ul>
   </div>
 
