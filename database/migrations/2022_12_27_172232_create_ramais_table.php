@@ -16,6 +16,7 @@ class CreateRamaisTable extends Migration
         Schema::create('ramais', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('telefone', 13);
             $table->string('ramal', 6);
             $table->string('central', 50);
             $table->string('informe');
