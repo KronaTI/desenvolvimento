@@ -12,3 +12,10 @@
 
 
 @endsection
+
+
+
+
+<footer class="rodape-aplicacao">
+    <p class="texto-rodape"> Krona Ferramentas &copy; 2022</p>
+</footer>

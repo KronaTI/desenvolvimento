@@ -1,0 +1,16 @@
+<label class="perguntas">5 - Assinale qual das opções abaixo descreve o significado do Plano de Gerenciamento de Risco (PGR).</label><br>
+            <label class="alternativas">a - Conjunto de normas e procedimentos que ovjetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR;</label>
+            <input class="dados" type="text" autocomplete="off" id="alternativaacinco" name="alternativaacinco">
+            <label class="alternativas">b - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato;</label>
+            <input class="dados" type="text" autocomplete="off" id="alternativabcinco" name="alternativabcinco">
+            <label class="alternativas">c - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR e apólice;</label>
+            <input class="dados" type="text" autocomplete="off" id="alternativaccinco" name="alternativaccinco">
+            <label class="alternativas">d - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato e apáolice;</label>
+            <input class="dados" type="text" autocomplete="off" id="alternativadcinco" name="alternativadcinco">
+            <label class="alternativas">e - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em apólice;</label>
+            <input class="dados" type="text" autocomplete="off" id="alternativaequatro" name="alternativaequatro"><br><br>
+
+
+
+<input class="dados" type="radio" name="alternativa-a" value="a">a - Conjunto de normas e procedimentos que ovjetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR;<br>
+<input class="dados" type="radio" name="alternativa-b" value="b">b - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato;<br>

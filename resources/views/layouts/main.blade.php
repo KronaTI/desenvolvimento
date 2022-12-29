@@ -45,28 +45,16 @@
                         <a class="dropdown-item" href="/ramais">Ramais</a>
                         <a class="dropdown-item" href="#">Resultados Consolidados</a>
                         <a class="dropdown-item" href="#">Mural de Recados</a>
-                        <a class="dropdown-item" href="/adm-geral/usuarios">Cadastro de Usuários</a>
+                        <a class="dropdown-item" href="/acesso">Acessar ADM</a>
                       </div>
                     </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" name="login" placeholder="Insira seu login" aria-label="Login">
-                    <input class="form-control mr-sm-2" type="password" name="password" maxlength="6" placeholder="Digite sua senha" aria-label="Password">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Acessar ADM</button>
-                  </form>
                 </div>
               </nav>
         </header>
         @yield('content')
         
-        <footer class="rodape-aplicacao">
-            <p class="texto-rodape"> Krona Ferramentas &copy; 2022</p>
-        </footer>
-
-
-
-
-
+      
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>

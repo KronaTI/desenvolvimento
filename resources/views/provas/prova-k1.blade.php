@@ -22,65 +22,79 @@
                 <option>Michelle Mello</option>
             </select>
             <hr>
-            <label class="perguntas">1 - Em sua opinião o registro de não conformidade é obrigatória? Qual a importância?</label><br>
-            <label class="alternativas">a - Sim, pois sem a NC a viagem não pode ser encerrada;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaa" name="alternativaa">
-            <label class="alternativas">b - Não, pois a NC não é pertinente para o rastreamento;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativab" name="alternativab">
-            <label class="alternativas">c - Sim, pois a NC é um regisro de tudo que acontece na viagem para o nosso gestor;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativac" name="alternativac">
-            <label class="alternativas">d - Sim, pois a NC é um registro de tudo que acontece na viagem para o nosso cliente;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativad" name="alternativad">
-            <label class="alternativas">e - Não, pios não faz parte do processo de gerenciamento de risco;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativae" name="alternativae"><br><br>
+            
+    <label class="perguntas">1 - Em sua opinião o registro de não conformidade é obrigatória? Qual a importância?</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - Sim, pois sem a NC a viagem não pode ser encerrada;</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - Não, pois a NC não é pertinente para o rastreamento;</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - Sim, pois a NC é um regisro de tudo que acontece na viagem para o nosso gestor;</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - Sim, pois a NC é um registro de tudo que acontece na viagem para o nosso cliente;</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas" value="e">
+        <label class="alternativas" for="e">e - Não, pios não faz parte do processo de gerenciamento de risco;</label><br><br>
+            <hr class="linha">
+        <label class="perguntas">2 - Em qual situação devemos localizar o veículo no mapa Krona One e/ou na tecnologia?</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - Quando o condutor inicia e finaliza a viagem, em todas as paradas com macro ou indevida, e quando gera alerta suspeito.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - Somente quando gera alerta suspeito e nas paradas de almoço e pernoite.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - Somente quando o condutor inicia a viagem, gera alerta suspeito e quando ele finaliza a viagem.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - Quando o condutor finaliza a viagem, gera alerta suspeito ou para sem informar.</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas" value="e">
+        <label class="alternativas" for="e">e - Somente quando gera alerta suspeito, parada indevida ou quando finaliza a viagem.</label><br><br>
+            <hr class="linha">
+        <label class="perguntas">3 - Uma das ocorrências do Krona One tem o nome de "parada estendida". Assinale qual alternativa define sua geração.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - Acontece quando o condutor fica mais de 2 horas parado sem informar e não é lida a ocorrência no Krona One.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - Acontece quando o condutor manda parada eventual e a ocorrência não é lida entre 1 a 2 horas dependendo da operação no Krona One.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - Acontece quando o condutor manda parada programada e a ocorrência não é lida dentro de 1 hora no Krona One.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - Acontece quando o condutor manda parada programada e a ocorrência não é lida dentro de 1 a 2 horas no Krona One.</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas" value="e">
+        <label class="alternativas" for="e">e - Acontece quando o condutor manda parada eventual e a ocorrência não é lida dentro de 2 horas no Krona One.</label><br><br>
+            <hr class="linha">
+        <label class="perguntas">4 - A coluna "RISCO" na aba dos veículos "EM VIAGEM" está associado a:.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - EVENTO.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - OCORRÊNCIA.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - STATUS VEÍCULO.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - REGISTROS.</label><br>
+            <hr class="linha">
+        <label class="perguntas">5 - Assinale a alternativa que melhor define o que é uma "OCORRENCIA".</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - É um alerta para o operador de um evento ou mensagem que o Krona One reconhece através da integração com a tecnologia.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - É um alerta que o Krona One emite quando gera uma não conformidade.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - É um alerta gerado no Krona One através dos comandos que o operador envia.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - É um alerta gerado pelo Krona One na aba de Status.</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas" value="e">
+        <label class="alternativas" for="e">e - É um alerta gerado pelo Krona One após identificar o histórico de viagens.</label><br><br>
+            <hr class="linha">
+        <label class="perguntas">6 - Assinale a alternativa que melhor define <strong>CTO</strong>.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
+        <label class="alternativas" for="a" >a - Centro de tratativa de ocorrência, setor de apoio que atua após o inicio da viagem.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas" value="B">
+        <label class="alternativas" for="b">b - Centro de tratativa de ocorrência, setor de apoio que atua antes de uma irregularidade.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas" value="C">
+        <label class="alternativas" for="c">c - Centro de tratativa de ocorrência, setor de apoio que atua após a identificação de alguma macro.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas" value="D">
+        <label class="alternativas" for="d">d - Central de tratativa de ocorrência, setor de apoio que atua após a primeira tratativa do operador referente a algum evento de forte suspeita.</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas" value="e">
+        <label class="alternativas" for="e">e - Central de tratativa de ocorrência setor de apoio que atua após a chegada no cliente do veículo.</label><br><br>
+            <hr class="linha">
+        
 
-            <label class="perguntas">2 - Em  qual situação devemos localizar o veículo no MAPA Krona One e/ou na Tecnologia?</label><br>
-            <label class="alternativas">a - Quando o condutor inicia e finaliza a viagem, em todas as paradas com macro ou indevida, e quando gera alerta suspeito;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaadois" name="alternativaadois">
-            <label class="alternativas">b - Somente quando gera alerta suspeito e nas paradas de almoço e pernoite;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativabdois" name="alternativabdois">
-            <label class="alternativas">c - Somente quando o condutor inicia a vigaem, gera alerta suspeito e quando ele finaliza a viagem;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativacdois" name="alternativacdois">
-            <label class="alternativas">d - Quando o condutor finaliza a viagem, gera alerta suspeito ou para sem informar;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaddois" name="alternativaddois">
-            <label class="alternativas">e - Somente quando gera alerta suspeito, parada indevida ou quando finaliza a viagem;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaedois" name="alternativaedois"><br><br>
-
-            <label class="perguntas">3 - Assinale a alternativa que melhor define o que é uma "OCORRÊNCIA".</label><br>
-            <label class="alternativas">a - É um alerta para operador de um evento ou mensagem que o Krona One reconhece através da integração com a tecnologia;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaatres" name="alternativaatres">
-            <label class="alternativas">b - É um alerta que o Krona One emite quando gera uma não conformidade;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativabtres" name="alternativabtres">
-            <label class="alternativas">c - É um alerta gerado no Krona One através dos comandos que o operador envia;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativactres" name="alternativactres">
-            <label class="alternativas">d - É um alerta gerado pelo Krona One na aba de status;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativadtres" name="alternativadtres">
-            <label class="alternativas">e - É um alerta gerado pelo Krona One após identificar o histórico de viagens;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaetres" name="alternativaetres"><br><br>
-
-            <label class="perguntas">4 - Assinale a alternativa que melhor define CTO.</label><br>
-            <label class="alternativas">a - Centro de tratativa de ocorrência, setor de apoio que auta após o inicio da viagem;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaaquatro" name="alternativaaquatro">
-            <label class="alternativas">b - Central de tratativa de ocorrência, setor de apoio que atua antes de uma irregularidade;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativabquatro" name="alternativabquatro">
-            <label class="alternativas">c - Centro de tratativa de ocorrência, setor de apoio que atua após a identificação de algum erro;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativacquatro" name="alternativacquatro">
-            <label class="alternativas">d - Central de tratativa de ocorrência, setor de apoio qua atua após a pirmeira tratativa do operador referente a algum evento de forte suspeita;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativadquatro" name="alternativadquatro">
-            <label class="alternativas">e - Central de tratativa de ocorrência setor de apoio que atua após a chegada no cliente do veículo;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaequatro" name="alternativaequatro"><br><br>
-   
-            <label class="perguntas">5 - Assinale qual das opções abaixo descreve o significado do Plano de Gerenciamento de Risco (PGR).</label><br>
-            <label class="alternativas">a - Conjunto de normas e procedimentos que ovjetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaacinco" name="alternativaacinco">
-            <label class="alternativas">b - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativabcinco" name="alternativabcinco">
-            <label class="alternativas">c - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR e apólice;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaccinco" name="alternativaccinco">
-            <label class="alternativas">d - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato e apáolice;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativadcinco" name="alternativadcinco">
-            <label class="alternativas">e - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em apólice;</label>
-            <input class="dados" type="text" autocomplete="off" id="alternativaequatro" name="alternativaequatro"><br><br>
 
 
 

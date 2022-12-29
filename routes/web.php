@@ -10,6 +10,8 @@ use App\Http\Controllers\TreinadorController;
 use App\Http\Controllers\ProvaK1Controller;
 use App\Http\Controllers\UsuariosController;
 use App\Http\Controllers\PesquisaController;
+use App\Http\Controllers\CadastroRamalController;
+use App\Http\Controllers\AcessoController;
 
 
 
@@ -22,3 +24,5 @@ Route::get('/provas/treinador', [TreinadorController::class, 'treinador']);
 Route::get('/provas/prova-k1', [ProvaK1Controller::class, 'provak1']);
 Route::get('/adm-geral/usuarios', [UsuariosController::class, 'usuario']);
 Route::get('/provas/pesquisa', [PesquisaController::class, 'pesquisa']);   
+Route::get('/adm-geral/cadastro-ramais', [CadastroRamalController::class, 'createramal']);
+Route::get('/acesso', [AcessoController::class, 'acessar']);

@@ -31,8 +31,11 @@
 }
 .linha
 {
-    height: 3px;
-    color: black;
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #423f3f;
+    box-shadow: 2px 2px 5px #181620;
 }
 .legenda{
     text-align: center;
@@ -168,4 +171,65 @@
     color: red;
     font-size: 13px;
     font-weight: bolder;
+}
+#form-ramal{
+    background-image: url('/images/fundos-telas/ramais.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 700px;
+    height: 430px;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid rgb(6, 44, 80);
+    box-shadow: 3px 3px 5px #181620;
+    border-radius: 10px;
+}
+.form-acesso{
+    background-image: url('/images/fundos-telas/fundo-dois.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 450px;
+    height: 220px;
+    margin: 100px auto;
+    padding: 10px;
+    border: 1px solid #181620;
+    box-shadow: 3px 3px 5px #423f3f;
+    border-radius: 10px;
+}
+.rotulo-acesso{
+    margin: 10px 20px;
+}
+.dados-acesso{
+        margin: 0px 20px;
+        width: 250px;
+        text-align: center;
+        font-weight: bolder;
+        line-height: 30px;
+}
+.container-esquerda{
+    margin: 20px 10px;
+    padding: 30px;
+    width: 390px;
+    height: 500px;
+    background-color: #423f3f;
+    float: left;
+    position: relative;
+    border: 1px solid white;
+}
+.container-direita{
+    margin: 20px 10px;
+    width: 880px;
+    height: 500px;
+    float: right;
+    background-color: #423f3f;
+}
+#janela
+{
+    width: 100%;
+    height: 100%;
+}
+.tt-manuais{
+    font-weight: bolder;
+    color: #c2c2c2;
+    text-shadow: 3px 3px 5px #000;
 }
