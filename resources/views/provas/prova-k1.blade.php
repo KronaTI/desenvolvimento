@@ -36,16 +36,16 @@
         <label class="alternativas" for="e">e - Não, pios não faz parte do processo de gerenciamento de risco;</label><br><br>
             <hr class="linha">
         <label class="perguntas">2 - Em qual situação devemos localizar o veículo no mapa Krona One e/ou na tecnologia?</label><br>
-        <input class="dados" type="radio" id="a" name="alternativas" value="A">    
-        <label class="alternativas" for="a" >a - Quando o condutor inicia e finaliza a viagem, em todas as paradas com macro ou indevida, e quando gera alerta suspeito.</label><br>
-        <input class="dados" type="radio" id="b" name="alternativas" value="B">
-        <label class="alternativas" for="b">b - Somente quando gera alerta suspeito e nas paradas de almoço e pernoite.</label><br>
-        <input class="dados" type="radio" id="a" name="alternativas" value="C">
-        <label class="alternativas" for="c">c - Somente quando o condutor inicia a viagem, gera alerta suspeito e quando ele finaliza a viagem.</label><br>
-        <input class="dados" type="radio" id="d" name="alternativas" value="D">
-        <label class="alternativas" for="d">d - Quando o condutor finaliza a viagem, gera alerta suspeito ou para sem informar.</label><br>
-        <input class="dados" type="radio" id="e" name="alternativas" value="e">
-        <label class="alternativas" for="e">e - Somente quando gera alerta suspeito, parada indevida ou quando finaliza a viagem.</label><br><br>
+        <input class="dados" type="radio" id="a" name="alternativas-b" value="A">    
+        <label class="alternativas-b" for="a" >a - Quando o condutor inicia e finaliza a viagem, em todas as paradas com macro ou indevida, e quando gera alerta suspeito.</label><br>
+        <input class="dados" type="radio" id="b" name="alternativas-b" value="B">
+        <label class="alternativas-b" for="b">b - Somente quando gera alerta suspeito e nas paradas de almoço e pernoite.</label><br>
+        <input class="dados" type="radio" id="a" name="alternativas-b" value="C">
+        <label class="alternativas-b" for="c">c - Somente quando o condutor inicia a viagem, gera alerta suspeito e quando ele finaliza a viagem.</label><br>
+        <input class="dados" type="radio" id="d" name="alternativas-b" value="D">
+        <label class="alternativas-b" for="d">d - Quando o condutor finaliza a viagem, gera alerta suspeito ou para sem informar.</label><br>
+        <input class="dados" type="radio" id="e" name="alternativas-b" value="e">
+        <label class="alternativas-b" for="e">e - Somente quando gera alerta suspeito, parada indevida ou quando finaliza a viagem.</label><br><br>
             <hr class="linha">
         <label class="perguntas">3 - Uma das ocorrências do Krona One tem o nome de "parada estendida". Assinale qual alternativa define sua geração.</label><br>
         <input class="dados" type="radio" id="a" name="alternativas" value="A">    
@@ -94,14 +94,6 @@
         <label class="alternativas" for="e">e - Central de tratativa de ocorrência setor de apoio que atua após a chegada no cliente do veículo.</label><br><br>
             <hr class="linha">
         
-
-
-
-
-
-
-
-
             <input type="submit" class="btn btn-outline-primary" value="Salvar Dados">
         </form>
     </div>

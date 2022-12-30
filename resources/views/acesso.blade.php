@@ -6,7 +6,7 @@
 
 @section('content')
 
-<form class="form-acesso" method="post" action="#">
+<form class="form-acesso" method="get" action="#">
     
     <label class="rotulo-acesso">Login de Acesso:</label><br>
     <input class="dados-acesso" type="text" name="login" autocomplete="off" autofocus="true" placeholder="Informe o login"><br>
