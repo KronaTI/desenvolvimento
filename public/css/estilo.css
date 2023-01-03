@@ -238,3 +238,16 @@
     margin-left: 20px;
     
 }
+.card{
+    float: left;
+    position: relative;
+    margin: 10% auto 30px 10%;
+    box-shadow: 3px 3px 5px #181620;
+    border-radius: 15px;
+}
+.card-text{
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
