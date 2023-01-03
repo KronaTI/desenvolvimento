@@ -12,6 +12,7 @@ use App\Http\Controllers\UsuariosController;
 use App\Http\Controllers\PesquisaController;
 use App\Http\Controllers\CadastroRamalController;
 use App\Http\Controllers\AcessoController;
+use App\Http\Controllers\ADMPrincipal;
 
 
 
@@ -26,3 +27,4 @@ Route::get('/adm-geral/usuarios', [UsuariosController::class, 'usuario']);
 Route::get('/provas/pesquisa', [PesquisaController::class, 'pesquisa']);   
 Route::get('/adm-geral/cadastro-ramais', [CadastroRamalController::class, 'createramal']);
 Route::get('/acesso', [AcessoController::class, 'acessar']);
+Route::get('/adm-geral/adm-principal', [ADMPrincipal::class, 'principal']);

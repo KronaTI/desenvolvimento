@@ -45,6 +45,7 @@
                         <a class="dropdown-item" href="/ramais">Ramais</a>
                         <a class="dropdown-item" href="#">Resultados Consolidados</a>
                         <a class="dropdown-item" href="#">Mural de Recados</a>
+                        <hr class="linha">
                         <a class="dropdown-item" href="/acesso">Acessar ADM</a>
                       </div>
                     </li>

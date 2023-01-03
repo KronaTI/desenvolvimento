@@ -9,11 +9,13 @@
     <div id="painel-esquerda">
         <h2 class="titulo-ferramentas">Ferramentas ADM</h2>
 
-        <a href="/adm-geral/cadastro-ramais" target="painel-direita">Cadastro de Ramais</a>
+        <a href="/adm-geral/cadastro-ramais" target="janela">Cadastro de Ramais</a>
 
     </div>
     <div id="painel-direita">
-    
+        <iframe id="janela" name="janela">
+
+        </iframe>
     </div>
 
 

@@ -15,8 +15,8 @@
     <input class="dados-acesso" type="password" name="senha" maxlength="6" autocomplete="off" placeholder="Informe a senha">
 
     <input class="btn btn-outline-warning" type="submit" name="botao" value="Acessar">
-
+    <p class="acesso-cadastro">Para um novo cadastro <a href="/adm-geral/usuarios"> Clique Aqui!</a></p>
 </form>
-
+        
 
 @endsection

@@ -18,6 +18,7 @@
     <label class="rotulo">Confirme sua senha:</label>
     <input type="password" class="dado" maxlength="6" placeholder="Confirme sua Senha" autocomplete="off"><br>
     <input type="submit" class="btn btn-outline-primary" value="Cadastrar Usuário">
+    <p class="acesso-cadastro">Para um novo cadastro <a href="/acesso"> Clique Aqui!</a></p>
 </form>
 
 @endsection
