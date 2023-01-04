@@ -41,16 +41,52 @@
                         + Ferramentas
                       </a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/tms">Lista de TMS</a>
                         <a class="dropdown-item" href="/ramais">Ramais</a>
                         <a class="dropdown-item" href="#">Resultados Consolidados</a>
                         <a class="dropdown-item" href="#">Mural de Recados</a>
-                        <hr class="linha">
                         <a class="dropdown-item" href="/acesso">Acessar ADM</a>
                       </div>
                     </li>
                   </ul>
-                </div>
+                  @section('content')
+    <select class="form-select">
+        <option>&nbsp;*** TMS que são integrados com a Krona***&nbsp;</option>
+        <option>&nbsp;A<sub>2</sub>O</option>
+        <option>&nbsp;A3</option>
+        <option>&nbsp;ACTIVE</option>
+        <option>&nbsp;ALAMO</option>
+        <option>&nbsp;ALCA 03</option>
+        <option>&nbsp;ALLISSON SISTEMAS</option>
+        <option>&nbsp;ANTARES</option>
+        <option>&nbsp;API</option>
+        <option>&nbsp;ATENA INFORMÁTICA</option>
+        <option>&nbsp;BRUDAM</option>
+        <option>&nbsp;BSOFT</option>
+        <option>&nbsp;DATA ENTERPRISE</option>	
+        <option>&nbsp;DATAMEX</option>
+        <option>&nbsp;DATAPAR</option>
+        <option>&nbsp;DATATRANSP</option>
+        <option>&nbsp;DSS</option>
+        <option>&nbsp;ESCALA SOFT</option>
+        <option>&nbsp;ESL</option>
+        <option>&nbsp;GTI</option>
+        <option>&nbsp;MOVITRANS</option>
+        <option>&nbsp;NEW ENTERPRISE</option>
+        <option>&nbsp;NUCCI</option>
+        <option>&nbsp;O<sub>2</sub></option>
+        <option>&nbsp;RODOPAR</option>
+        <option>&nbsp;SAP</option>
+        <option>&nbsp;SIGNA</option>
+        <option>&nbsp;SINCLOG</option>
+        <option>&nbsp;SOFTLOG</option>
+        <option>&nbsp;SOFTRAN</option>
+        <option>&nbsp;SSW</option>
+        <option>&nbsp;TOTVS</option>
+        <option>&nbsp;PROTHEUS</option>
+        <option>&nbsp;SISTGLOBAL</option>
+        <option>&nbsp;MJS</option>
+      </select>
+       </div>
               </nav>
         </header>
         @yield('content')

@@ -6,23 +6,19 @@
 
 @section('content')
 
-<div class="card" style="width: 20rem;">
-    <div class="card-header">
-        <img src="/images/icon/prova.png">
-        Avaliações Krona
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item"><a class="link-card" href="/provas/treinador">Avalição do Treinador para iniciantes</a></li>
-      <li class="list-group-item"><a class="link-card"href="/provas/prova-k1">Avaliação Krona - Teste de Conhecimentos</a><br></li>
-      <li class="list-group-item"><a class="link-card"href="/provas/pesquisa">Pesquisa de Satisfação - Departamento de T.I.</a><br></li>
-    </ul>
-  </div>
+<div class="container-esquerda">
+    <h2 class="tt-manuais"> Avaliações Krona </h2>
 
-    <ul class="listas">
-        
-        <li class="lista-item">
-                
-        </li>
+    <a href="/provas/prova-k1" target="janela">Prova K1</a>
+</div>
+
+<div class="container-direita" id="container-direita">
+    <iframe id="janela" name="janela">
+
+    </iframe>
+
+</div>
+  
 
 
 @endsection

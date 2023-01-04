@@ -8,21 +8,21 @@
     <img src="/images/figuras-projeto/quadro-um.png" class="card-img-top" alt="...">
     <div class="card-body">
         <h4>Qualidade</h4>
-      <p class="card-text">Textos para exemplificar</p>
+      <p class="card-text">O departamento de qualidade vem através dessa ferramenta proporcionar algumas informações importantes para os processos da krona.</p>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
     <img src="/images/figuras-projeto/quadro-um.png" class="card-img-top" alt="...">
     <div class="card-body">
-        <h4>Qualidade</h4>
-      <p class="card-text">Textos para exemplificar</p>
+        <h4>Treinamentos</h4>
+      <p class="card-text">Os treinamentos são realizados para novos colaboradores com a finalidade de prepará-los para as situações encontradas durante a realização das atividades.</p>
     </div>
   </div>
   <div class="card" style="width: 18rem;">
     <img src="/images/figuras-projeto/quadro-um.png" class="card-img-top" alt="...">
     <div class="card-body">
-        <h4>Qualidade</h4>
-      <p class="card-text">Textos para exemplificar</p>
+        <h4>Reciclagem</h4>
+      <p class="card-text">Os processos de reciclagem são programados pelo departamento de qualidade sempre que exista a necessidade ou janela nas tecnologias.</p>
     </div>
   </div>
     

@@ -1,4 +1,4 @@
-<label class="perguntas">1 - Em sua opinião o registro de não conformidade é obrigatória? Qual a importância?</label><br>
+            <label class="perguntas">1 - Em sua opinião o registro de não conformidade é obrigatória? Qual a importância?</label><br>
             <label class="alternativas">a - Sim, pois sem a NC a viagem não pode ser encerrada;</label>
             <input class="dados" type="text" autocomplete="off" id="alternativaa" name="alternativaa">
             <label class="alternativas">b - Não, pois a NC não é pertinente para o rastreamento;</label>

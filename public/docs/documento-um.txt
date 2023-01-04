@@ -14,3 +14,56 @@
 
 <input class="dados" type="radio" name="alternativa-a" value="a">a - Conjunto de normas e procedimentos que ovjetiva orientar e organizar as regras de segurança obrigatórias clausuladas em DDR;<br>
 <input class="dados" type="radio" name="alternativa-b" value="b">b - Conjunto de normas e procedimentos que objetiva orientar e organizar as regras de segurança obrigatórias clausuladas em contrato;<br>
+
+
+
+
+
+
+
+ <div class="container-esquerda">
+        <h2 class="tt-manuais"> Manuais Krona </h2>
+    
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+    </div>
+    
+    <div class="container-direita" id="container-direita">
+        <iframe id="janela" name="janela">
+
+        </iframe>
+    
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container-esquerda">
+    <h2 class="tt-manuais"> Ramais Krona </h2>
+
+    <a href="#" target="janela" class="link-util">T.I</a><br><br>
+    <a href="#" target="janela" class="link-util">ADM / Financeiro / RH / Compras</a><br><br>
+    <a href="#" target="janela" class="link-util">Central Compartilhada</a><br><br>
+    <a href="#" target="janela" class="link-util">Central Pamsat I e II</a><br><br>
+    <a href="#" target="janela" class="link-util">Central Krona Oeste</a><br><br>
+    <a href="#" target="janela" class="link-util">Projetos</a><br><br>
+    <a href="#" target="janela" class="link-util">Configuração / Qualidade</a><br><br>
+    <a href="#" target="janela" class="link-util">Diretoria / Gerência</a><br><br>
+
+</div>
+
+<div class="container-direita" id="container-direita">
+    <iframe id="janela" name="janela">
+
+    </iframe>
+
+</div>
