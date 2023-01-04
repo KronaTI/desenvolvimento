@@ -17,6 +17,12 @@
         <a href="#" target="janela"></a>
         <a href="#" target="janela"></a>
         <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
+        <a href="#" target="janela"></a>
     </div>
     
     <div class="container-direita" id="container-direita">
