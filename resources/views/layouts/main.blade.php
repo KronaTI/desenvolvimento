@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="favcon" href="/images/favcon.png" type="image/png">
         <title>@yield('title')</title>
 
         <!-- CSS da Aplicação -->
