@@ -135,7 +135,7 @@
     margin: 30px;
 }
 #form{
-    background-image: url('/images/fundos-telas/fundo-quatro.jpg');
+    background-image: url('/images/fundos-telas/fundo-tres.jpg');
     background-size: cover 90%;
     width: 700px;
     height: 390px;
@@ -150,7 +150,7 @@
     margin-bottom: 20px;
     width: 300px;
     font-weight: bolder;
-    color: #181620;
+    color: #c0c0c0;
 }
 .dado{
     margin-left: 10px;

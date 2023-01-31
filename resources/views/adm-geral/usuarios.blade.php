@@ -7,7 +7,7 @@
 @section('content')
 
     
-<form id="form" method="post" action>
+<form id="form" method="post" action="/usuarios">
     <h1 class="titulo-formulario"> Cadrastro do Usuário</h1>
     <label class="rotulo">Nome do Usuário:</label>
     <input type="text" class="dado" maxlength="50" placeholder="Nome do Usuário" autocomplete="off"><br>
@@ -20,5 +20,7 @@
     <input type="submit" class="btn btn-outline-primary" value="Cadastrar Usuário">
     <p class="acesso-cadastro">Já tem cadastro? <a href="/acesso"> Clique Aqui!</a></p>
 </form>
+
+
 
 @endsection

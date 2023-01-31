@@ -19,3 +19,9 @@
 <footer class="rodape-aplicacao">
     <p class="texto-rodape"> Krona Ferramentas &copy; 2022</p>
 </footer>
+
+
+
+@foreach ($usuario as $usuario)
+<p>{{$usuario->nome}} -- {{$usuario->cpf}}       
+@endforeach
